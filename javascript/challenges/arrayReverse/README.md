@@ -10,4 +10,4 @@ we need function takes in an array and revers the order of the element on it, th
 * in for loop : each time reduse the itration from the length of array then push the element in that index to emty array
 
 ## Solution
-* Whiteboard  ![check](.././assets/array-reverse.jpg)
+* Whiteboard  ![check](../../assets/array-reverse.jpg)
