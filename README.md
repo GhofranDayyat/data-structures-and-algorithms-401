@@ -9,10 +9,10 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 # Table of Contents
 |Code Challeng           |Title                                                                     |
 |------------------------|--------------------------------------------------------------------------|
-|Code Challenge: Class 01|[Reverse Array](./javascript/arrayReverse/README.md)                      | 
-|Code Challenge: Class 02|[Shift Array](./javascript/arrayShift/README.md)                          |
-|Code Challenge: Class 03|[binary search](./javascript/arrayBinarySearch/README.md)                 |
-|Code Challenge: Class 04|                                                                          |
-|Code Challenge: Class 05|                                                                          |
+|Code Challenge: Class 01|[Reverse Array](./javascript/challenges/arrayReverse/README.md)           | 
+|Code Challenge: Class 02|[Shift Array](./javascript/challenges/arrayShift/README.md)               |
+|Code Challenge: Class 03|[binary search](./javascript/challenges/arrayBinarySearch/README.md)      |
+|Code Challenge: Class 04|[matrix](./javascript/challenges/matrix/README.md)                        |
+|Code Challenge: Class 05|[linked List](./javascript/challenges/linkedList/README.md)               |
 |Code Challenge: Class 06|                                                                          |
 |Code Challenge: Class 07|                                                                          |

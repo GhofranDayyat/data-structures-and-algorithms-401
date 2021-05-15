@@ -13,5 +13,5 @@ update the low value one step up each time if test greater than number and And v
 update the low value one step up each time if test greater than number and And vice versa with high value
 
 ## Solution
-* Whiteboard  ![check](.././assets/array-binary-search.jpg)
+* Whiteboard  ![check](../../assets/array-binary-search.jpg)
 

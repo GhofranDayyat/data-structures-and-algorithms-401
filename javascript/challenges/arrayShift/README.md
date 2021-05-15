@@ -8,4 +8,4 @@ we need function takes in an array and the value to be added at the middle index
 ## Approach & Efficiency
 this Approach is Efficient to add any value in middle of array index whether the length odd or even
 ## Solution
-* Whiteboard  ![check](.././assets/challeng2.jpg)
+* Whiteboard  ![check](../../assets/challeng2.jpg)
