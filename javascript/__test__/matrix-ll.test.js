@@ -1,6 +1,6 @@
 'use strict';
 
-const shift = require('../matrix.js');
+const shift = require('../challenges/matrix/matrix.js');
 
 const inpuArray=[ [1, 2, 3], [3, 5, 7], [1, 7, 10] ];
 const inpuArray2=[ [0, 1, 5], [-4, 7, 2], [-3, 12, 11] ];

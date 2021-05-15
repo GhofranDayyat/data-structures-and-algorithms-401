@@ -1,6 +1,6 @@
 'use strict';
 
-const binarySearch = require('../array-binary-search.js');
+const binarySearch = require('../challenges/arrayBinarySearch/array-binary-search.js');
 
 const inpuArray=[4,8,15,16,23,42];
 describe('binary ', () => {

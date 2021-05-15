@@ -1,6 +1,6 @@
 'use strict';
 
-const shift = require('../array-shift.js');
+const shift = require('../challenges/arrayShift/array-shift.js');
 
 const inpuArray=[4,8,15,23,42];
 describe('Testing code challenge 2 ', () => {
