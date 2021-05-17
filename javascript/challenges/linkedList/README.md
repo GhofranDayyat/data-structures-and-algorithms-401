@@ -4,7 +4,7 @@ create methode to add node :
 * after any certine node value
 * before any certine node value
 ## Whiteboard Process
-under process
+![check](../../assets/ll-insertions.jpg)
 ## Approach & Efficiency
 O(n+1)
 O(1)
