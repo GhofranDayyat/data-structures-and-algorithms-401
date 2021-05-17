@@ -14,5 +14,5 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 |Code Challenge: Class 03|[binary search](./javascript/challenges/arrayBinarySearch/README.md)      |
 |Code Challenge: Class 04|[matrix](./javascript/challenges/matrix/README.md)                        |
 |Code Challenge: Class 05|[linked List](./javascript/challenges/linkedList/README.md)               |
-|Code Challenge: Class 06|                                                                          |
+|Code Challenge: Class 06|[linked List](./javascript/challenges/linkedList/README.md)               |
 |Code Challenge: Class 07|                                                                          |
