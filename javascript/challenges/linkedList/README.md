@@ -13,11 +13,12 @@ O(1)
 
 
 # Challenge Summary class7
-create methode   takes a number k, as a parameter. Return the node’s value that is k from the end of the linked list.
+* create methode   takes a number k, as a parameter. Return the node’s value that is k from the end of the linked list.
 
 ## Whiteboard Process
+![check](../../assets/ll-kth-from-end.jpg)
 
-* under process
+* 
 ## Approach & Efficiency
 O(n)
 O(1)
