@@ -66,13 +66,16 @@ class LinkedList{
   }
 }
 
-// let newNode= new LinkedList();
+let newNode= new LinkedList();
 
-// newNode.append(10),
-// newNode.append(20),
+newNode.append(10),
+newNode.append(20),
+newNode.append(30),
+newNode.append(40),
+newNode.append(50),
+newNode.append(60),
 
 
-// newNode.insertAfter(10,2);
 
 
 module.exports = LinkedList;
