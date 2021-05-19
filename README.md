@@ -16,3 +16,4 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 |Code Challenge: Class 05|[linked List](./javascript/challenges/linkedList/README.md)               |
 |Code Challenge: Class 06|[linked List](./javascript/challenges/linkedList/README.md)               |
 |Code Challenge: Class 07|[ll-kth-from-end](./javascript/challenges/linkedList/README.md)           |
+|Code Challenge: Class 08|[zipLists](./javascript/challenges/linkedList/README.md)                  |

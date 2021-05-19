@@ -92,5 +92,14 @@ class linkedList{
       return 'K Not Positive';
     }
   }
+  length(lL) {
+    let current = lL.head;
+    let length = 0;
+    while(current) {
+      current = current.next;
+      length++;
+    }
+    return length;
+  }
 }
 module.exports = linkedList;
