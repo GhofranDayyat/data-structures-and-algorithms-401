@@ -2,7 +2,7 @@
 
 
 const zipPage = require('../challenges/linkedList/ll-zip');
-const LinkedList=zipPage.LinkedList;
+const LinkedList=zipPage.linkedList;
 const zipLl = zipPage.zipLists;
 
 
