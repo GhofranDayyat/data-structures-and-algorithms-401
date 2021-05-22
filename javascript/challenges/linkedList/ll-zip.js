@@ -78,9 +78,9 @@ class linkedList{
         for (let i = 0; i < node-1; i++) {
           currentNode = currentNode.next;
         }
-        if(Math.floor(n/k)===2){
-          return 'Happy Path';
-        }
+        // if(Math.floor(n/k)===2){
+        //   return 'Happy Path';
+        // }
         return currentNode.value;
 
       }else{
