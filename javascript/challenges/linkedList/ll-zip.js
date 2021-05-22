@@ -78,15 +78,23 @@ class linkedList{
         for (let i = 0; i < node-1; i++) {
           currentNode = currentNode.next;
         }
+<<<<<<< HEAD
         // if(Math.floor(n/k)===2){
         //   return 'Happy Path';
         // }
+=======
+        if(Math.floor(n/k)===2){
+          return 'Happy Path';
+        }
+
+>>>>>>> cbba5b6ac0ffa5fe560338cab019d759586a0ce8
         return currentNode.value;
 
       }else{
         return 'Exception';
 
       }
+
 
     }else{
       return 'K Not Positive';
