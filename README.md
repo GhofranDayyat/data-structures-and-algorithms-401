@@ -9,11 +9,12 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 # Table of Contents
 |Code Challeng           |Title                                                                     |
 |------------------------|--------------------------------------------------------------------------|
-|Code Challenge: Class 01|[Reverse Array](./javascript/challenges/arrayReverse/README.md)           | 
-|Code Challenge: Class 02|[Shift Array](./javascript/challenges/arrayShift/README.md)               |
-|Code Challenge: Class 03|[binary search](./javascript/challenges/arrayBinarySearch/README.md)      |
-|Code Challenge: Class 04|[matrix](./javascript/challenges/matrix/README.md)                        |
-|Code Challenge: Class 05|[linked List](./javascript/challenges/linkedList/README.md)               |
+|Code Challenge: Class 02|[Reverse Array](./javascript/challenges/arrayReverse/README.md)           | 
+|Code Challenge: Class 03|[Shift Array](./javascript/challenges/arrayShift/README.md)               |
+|Code Challenge: Class 04|[binary search](./javascript/challenges/arrayBinarySearch/README.md)      |
+|Code Challenge: Class 05|[matrix](./javascript/challenges/matrix/README.md)                        |
 |Code Challenge: Class 06|[linked List](./javascript/challenges/linkedList/README.md)               |
-|Code Challenge: Class 07|[ll-kth-from-end](./javascript/challenges/linkedList/README.md)           |
-|Code Challenge: Class 08|[zipLists](./javascript/challenges/linkedList/README.md)                  |
+|Code Challenge: Class 07|[linked List](./javascript/challenges/linkedList/README.md)               |
+|Code Challenge: Class 08|[ll-kth-from-end](./javascript/challenges/linkedList/README.md)           |
+|Code Challenge: Class 09|[zipLists](./javascript/challenges/linkedList/README.md)                  |
+|Code Challenge: Class 10|[tacks and Queues](./javascript/challenges/stacksAndQueues/README.md)     |
