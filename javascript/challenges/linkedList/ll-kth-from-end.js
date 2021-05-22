@@ -78,9 +78,9 @@ class linkedList{
         for (let i = 0; i < node-1; i++) {
           currentNode = currentNode.next;
         }
-        // if(Math.floor(n/k)===2){
-        //   return 'Happy Path';
-        // }
+        if(Math.floor(n/k)===2){
+          return 'Happy Path';
+        }
         return currentNode.value;
 
       }else{
@@ -104,16 +104,3 @@ class linkedList{
 }
 module.exports = linkedList;
 
-
-  // while(head!== null) {
-    //     nextNode = head.next
-    //     console.log(head.next)
-    //     // head.next = prev
-    //     // prev = head
-    //     // head = nextNode
- 
-    // //after reversing return previous list
-    // // return prev.toString()
-
-
-    // }

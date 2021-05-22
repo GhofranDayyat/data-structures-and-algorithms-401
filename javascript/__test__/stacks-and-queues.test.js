@@ -55,7 +55,7 @@ describe('Stack',()=>{
 
 
 
-describe('Stack',()=>{
+describe('Queue',()=>{
   it('Can successfully enqueue into a queue',()=>{
     let q = new Queue();
     expect(q.enqueue(1).front.value).toEqual(1);
