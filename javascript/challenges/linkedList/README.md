@@ -24,3 +24,18 @@ O(n)
 O(1)
 ## Solution
 * test the unit: ``npm test ll-kth-from-end.test.js``
+
+
+# Challenge Summary class8
+* create zipLists   takes 2-linked list and return Zip two linked lists.
+
+
+## Whiteboard Process
+![check](../../assets/ll-zip.jpg)
+
+* 
+## Approach & Efficiency
+O(n)
+O(1)
+## Solution
+* test the unit: ``npm test ll-zip.test.js``
