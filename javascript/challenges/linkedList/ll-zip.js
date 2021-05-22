@@ -81,12 +81,14 @@ class linkedList{
         if(Math.floor(n/k)===2){
           return 'Happy Path';
         }
+
         return currentNode.value;
 
       }else{
         return 'Exception';
 
       }
+
 
     }else{
       return 'K Not Positive';
