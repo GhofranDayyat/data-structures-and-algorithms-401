@@ -60,7 +60,7 @@ class Queue{
   dequeue(){
     if(this.isEmpty()){
       return 'Exception';
-    }
+    } 
     const deleteItem =this.front.value;
     this.front=this.front.next;
     return deleteItem;
