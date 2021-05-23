@@ -18,3 +18,4 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 |Code Challenge: Class 08|[ll-kth-from-end](./javascript/challenges/linkedList/README.md)           |
 |Code Challenge: Class 09|[zipLists](./javascript/challenges/linkedList/README.md)                  |
 |Code Challenge: Class 10|[tacks and Queues](./javascript/challenges/stacksAndQueues/README.md)     |
+|Code Challenge: Class 11|[queue-with-stacks](./javascript/challenges/queueWithStacks/README.md)     |
