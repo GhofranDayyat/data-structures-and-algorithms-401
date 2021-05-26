@@ -1,6 +1,7 @@
 'use strict';
 
 const Stack = require('../stacksAndQueues/stacks-and-queues').Stack;
+
 function multiBracketValidation(input){
   let stack=new Stack();
   let braket = new Stack();
@@ -12,30 +13,31 @@ function multiBracketValidation(input){
       stack.push(e);
     }
   });
-
   let current= stack.top;
+  let result=true;
   while(current){
-    if(current.next){
-      if(current.value===']'&&current.next.value==='['){
-        console.log('1',stack.pop(),stack.pop());
-      }else if(current.value==='}'&&current.next.value==='{'){
-        console.log('2',stack.pop(),stack.pop());
+    console.log(current.value);
+    if(current.value===']'|| current.value==='}'||current.value===')' ){
 
-      }else if (current.value===')'&&current.next.value==='('){
-        console.log('3',stack.pop(),stack.pop());
-      }
-      else{
-        current.top = stack.pop();
-        console.log(current.value,'4');
+      braket.push(current);
+    } else if(current.value === '(' || current.value === '[' || current.value === '{') {
+      if(braket.isEmpty()) {
+        result= false;
+      } else {
+
+        stack = braket.peek();
+        if((current.value === '(' && stack.value === ')') || (current.value === '[' && stack.value === ']') || (current.value == '{' && stack.value == '}')) {
+          console.log(braket.pop().value,'poping');
+        } else {
+          console.log(false,'1000');
+          result=false;
+        }
       }
     }
+
     current = current.next;
   }
-
-
-
-
-  return stack.isEmpty();
+  return result;
 
 }
 
