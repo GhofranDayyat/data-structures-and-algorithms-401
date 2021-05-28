@@ -21,7 +21,7 @@ function multiBracketValidation(input){
     } else if (brakets[lastPush]===inputChar) {
       stack.pop();
       lastPush = stack.isEmpty() ? '' : stack.peek();
-    } else if (inputChar == '}' || inputChar == ']' || inputChar == ')') {
+    } else if (inputChar === '}' || inputChar === ']' || inputChar === ')') {
       return false;
     }
   }
