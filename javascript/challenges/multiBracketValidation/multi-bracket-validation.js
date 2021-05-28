@@ -14,14 +14,14 @@ function multiBracketValidation(input){
     '[':']'
   };
   for (let inputChar of input) {
-    let rejex = /[\{\[\(]/;
+    let rejex = /[\\{\\[\\(]/;
     if (rejex.test(inputChar)) {
       stack.push(inputChar);
       lastPush = inputChar;
     } else if (brakets[lastPush]===inputChar) {
       stack.pop();
       lastPush = stack.isEmpty() ? '' : stack.peek();
-    } else if (inputChar == '}' || inputChar == ']' || inputChar == ')') {
+    } else if (inputChar === '}' || inputChar === ']' || inputChar === ')') {
       return false;
     }
   }
