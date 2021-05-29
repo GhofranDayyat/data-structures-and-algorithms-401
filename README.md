@@ -7,6 +7,7 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
 
 # Table of Contents
+
 |Code Challeng           |Title                                                                             |
 |------------------------|----------------------------------------------------------------------------------|
 |Code Challenge: Class 02|[Reverse Array](./javascript/challenges/arrayReverse/README.md)                   | 

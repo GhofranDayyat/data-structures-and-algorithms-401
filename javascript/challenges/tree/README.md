@@ -14,7 +14,11 @@
 
 
 ## Challenge
-<!-- Description of the challenge -->
+* Implementation: Trees
+* Create a BinaryTree class 
+- BT methods preOrder(), inOrder(), and postOrder()
+- Create a BinarySearchTree class
+- write BST Methods add (), contains ()
 
 ## Approach & Efficiency
 * The Big O time complexity of a Binary Search Tree’s insertion and search operations is O(h), or O(height).
