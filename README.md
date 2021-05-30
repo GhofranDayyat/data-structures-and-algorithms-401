@@ -23,3 +23,4 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 |Code Challenge: Class 12|[fifo-Animal-Shelter](./javascript/challenges/fifoAnimalShelter/README)           |
 |Code Challenge: Class 13|[multiBracketValidation](./javascript/challenges/multiBracketValidation/README)   |
 |Code Challenge: Class 15|[Trees](./javascript/challenges/tree/README)                                      |
+|Code Challenge: Class 16|[find-maximum-binary-tree](./javascript/challenges/tree-maximum-value/README)     |
