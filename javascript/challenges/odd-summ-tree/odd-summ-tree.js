@@ -12,13 +12,16 @@ class BinarySearchTree {
   add(value){
     if(typeof(value)!=='number') return 'Add number only to BinarySearchTree' ;
     let node=new Node(value);
+
     if(!this.root){
       this.root=node;
       return this;
     }
+
     let current  = this.root;
     while(current){
       if (node.value === current.value) return 'value already existing in BinarySearchTree';
+
       //insert in left if value<root
       if( node.value > current.value){
         if(!current.right){
@@ -27,6 +30,7 @@ class BinarySearchTree {
           current=current.right;
         }
       }
+
       //insert in right if value>root
       if( node.value < current.value){
         if(!current.left){
@@ -37,19 +41,19 @@ class BinarySearchTree {
       }
     }
   }
-  preOrder(){ //Roor-Left-Right
-    let output = [];
-    function treversal(node){
-      output.push(node.value);
-      if(node.left) treversal(node.left); //if there is left ;recersive from these left
-      if(node.right) treversal(node.right); //if there is right ;recersive from these right
-    }
-    treversal(this.root);
-    return output;
+  inOrder() {
+    let results = [];
+    let traverse = (node) => {
+      if (node.left) traverse(node.left);
+      results.push(node.value);
+      if (node.right) traverse(node.right);
+    };
+    traverse(this.root);
+    return results;
   }
   sumallodds(){
     let sum =0;
-    let output =this.preOrder();
+    let output =this.inOrder();
     for (let i = 0; i < output.length; i++) {
       if (!(output[i] %2===0)){
         sum+=output[i];
