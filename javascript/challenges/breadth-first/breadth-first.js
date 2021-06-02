@@ -44,7 +44,7 @@ class BinaryTree{
     treversal(this.root);
     return output;
   }
-
+  
   findMaximumValue(){
     if(!this.root) return 'tree is empty';
     let output = this.preOrder();
