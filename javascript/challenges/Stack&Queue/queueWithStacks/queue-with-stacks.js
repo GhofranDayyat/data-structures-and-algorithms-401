@@ -10,13 +10,13 @@ class PseudoQueue {
   }
   dequeue(){
     let storge=new Stack();
-    if(storge.isEmpty()){
-      while(!this.queue.isEmpty()){
+    if(!storge.top){ // is empty
+      while(this.queue.top){ // isn't empty
         storge.push(this.queue.pop());
       }
     }
     let deleted=storge.pop();
-    while(!storge.isEmpty()){
+    while(storge.top){ // isn't empty
       this.queue.push(storge.pop());
     }
     return deleted;
