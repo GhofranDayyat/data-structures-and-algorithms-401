@@ -5,6 +5,44 @@ class Node {
     this.right = null;
   }
 }
+
+class BinaryTree{
+  constructor(root=null){
+    this.root= root;
+  }
+  preOrder(){ //Roor-Left-Right
+    let output = [];
+    function treversal(node){
+      output.push(node.value);
+      if(node.left) treversal(node.left); //if there is left ;recersive from these left
+      if(node.right) treversal(node.right); //if there is right ;recersive from these right
+    }
+    treversal(this.root);
+    return output;
+  }
+
+  inOrder(){ //Left-Roor-Right
+    let output = [];
+    function treversal(node){
+      if(node.left) treversal(node.left); //if there is left ;recersive from these left
+      output.push(node.value);
+      if(node.right) treversal(node.right); //if there is right ;recersive from these right
+    }
+    treversal(this.root);
+    return output;
+  }
+
+  postOrder(){ //Left-Right-Roor
+    let output = [];
+    function treversal(node){
+      if(node.left) treversal(node.left); //if there is left ;recersive from these left
+      if(node.right) treversal(node.right); //if there is right ;recersive from these right
+      output.push(node.value);
+    }
+    treversal(this.root);
+    return output;
+  }
+}
 class BinarySearchTree {
   constructor() {
     this.root = null;
@@ -57,6 +95,9 @@ class BinarySearchTree {
     }
     return sum;
   }
+  contains(value){
+    return this.preOrder().includes(value);
+  }
 }
 let binarySearchTree = new BinarySearchTree();
 binarySearchTree.add(8);
@@ -70,3 +111,10 @@ binarySearchTree.add(7);
 binarySearchTree.add(13);
 binarySearchTree;
 binarySearchTree.sumallodds();
+
+module.exports= {
+  Node,
+  BinarySearchTree,
+  BinaryTree,
+};
+

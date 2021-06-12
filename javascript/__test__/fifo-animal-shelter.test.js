@@ -1,6 +1,6 @@
 'use strict';
 
-const AnimalShelter = require('../challenges/fifoAnimalShelter/fifo-animal-shelter');
+const AnimalShelter = require('../challenges/Stack&Queue/fifoAnimalShelter/fifo-animal-shelter');
 
 
 

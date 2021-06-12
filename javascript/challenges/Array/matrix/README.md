@@ -10,4 +10,4 @@ Given a matrix, find the sum of each row.
 ## Approach & Efficiency
 this Approach is Efficient to sum any rows of matrix
 ## Solution
-* Whiteboard  ![check](../../assets/challeng4.jpg)
+* Whiteboard  ![check](../../../assets/challeng4.jpg)

@@ -1,7 +1,7 @@
 'use strict';
 
-let Node = require('../challenges/tree-maximum-value/find-maximum-value').Node;
-let BT = require('../challenges/tree-maximum-value/find-maximum-value').BinaryTree;
+let Node = require('../challenges/Tree/tree-maximum-value/find-maximum-value').Node;
+let BT = require('../challenges/Tree/tree-maximum-value/find-maximum-value').BinaryTree;
 
 describe('findMaximumValue() in BT',()=>{
   it('return maximun number in BT ',()=>{

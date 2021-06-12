@@ -1,5 +1,5 @@
-const Stack =require('../challenges/stacksAndQueues/stacks-and-queues').Stack;
-const Queue = require('../challenges/stacksAndQueues/stacks-and-queues').Queue;
+const Stack =require('../challenges/Stack&Queue/stacksAndQueues/stacks-and-queues').Stack;
+const Queue = require('../challenges/Stack&Queue/stacksAndQueues/stacks-and-queues').Queue;
 
 
 describe('Stack',()=>{

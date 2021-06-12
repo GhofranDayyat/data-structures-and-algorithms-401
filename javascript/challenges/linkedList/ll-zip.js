@@ -117,8 +117,6 @@ lL2.append(4);
 lL2.append(6);
 lL2.append(8);
 function zipLists(lL1, lL2) {
-  let currentNode1 = lL1.head;
-  let currentNode2 = lL2.head;
   let newLL = new linkedList();
 
   let LL1Length = newLL.length(lL1);
