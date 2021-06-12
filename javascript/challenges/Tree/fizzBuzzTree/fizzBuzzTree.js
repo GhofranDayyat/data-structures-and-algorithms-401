@@ -1,4 +1,4 @@
-const Queue = require('../stacksAndQueues/stacks-and-queues').Queue;
+const Queue = require('../../Stack&Queue/stacksAndQueues/stacks-and-queues').Queue;
 
 
 

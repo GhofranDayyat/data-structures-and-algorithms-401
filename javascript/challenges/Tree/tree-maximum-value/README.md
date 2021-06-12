@@ -3,7 +3,7 @@
 
 
 ## Whiteboard Process
-![check](../../assets/find-maximum-binary-tree.jpg)
+![check](../../../assets/find-maximum-binary-tree.jpg)
 
 ## Approach & Efficiency
 * The Big O time complexity of a BinaryTree’s insertion and search operations is O(h), or O(height).

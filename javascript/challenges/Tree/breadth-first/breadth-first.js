@@ -1,4 +1,4 @@
-let Queue = require('../stacksAndQueues/stacks-and-queues').Queue;
+let Queue = require('../../Stack&Queue/stacksAndQueues/stacks-and-queues').Queue;
 
 class Node{
   constructor(value){

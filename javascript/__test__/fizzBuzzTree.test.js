@@ -1,6 +1,6 @@
-const fizzBuzzTree= require ('../challenges/fizzBuzzTree/fizzBuzzTree').FizzBuzzTree;
-const KaryTree = require('../challenges/fizzBuzzTree/fizzBuzzTree').KaryTree;
-const Node = require('../challenges/fizzBuzzTree/fizzBuzzTree').Node;
+const fizzBuzzTree= require ('../challenges/Tree/fizzBuzzTree/fizzBuzzTree').FizzBuzzTree;
+const KaryTree = require('../challenges/Tree/fizzBuzzTree/fizzBuzzTree').KaryTree;
+const Node = require('../challenges/Tree/fizzBuzzTree/fizzBuzzTree').Node;
 
 describe('Testing K-ary Tree',()=>{
   it('fizzBuzzTree function',()=>{

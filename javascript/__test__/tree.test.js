@@ -1,6 +1,6 @@
-let Node = require('../challenges/tree/tree').Node;
-let BinarySearchTree = require('../challenges/tree/tree').BinarySearchTree;
-let BinaryTree = require('../challenges/tree/tree').BinaryTree;
+let Node = require('../challenges/Tree/tree/tree').Node;
+let BinarySearchTree = require('../challenges/Tree/tree/tree').BinarySearchTree;
+let BinaryTree = require('../challenges/Tree/tree/tree').BinaryTree;
 
 
 

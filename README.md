@@ -10,17 +10,17 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 |Code Challeng           |Title                                                                             |
 |------------------------|----------------------------------------------------------------------------------|
-|Code Challenge: Class 02|[Reverse Array](./javascript/challenges/arrayReverse/README.md)                   | 
-|Code Challenge: Class 03|[Shift Array](./javascript/challenges/arrayShift/README.md)                       |
-|Code Challenge: Class 04|[binary search](./javascript/challenges/arrayBinarySearch/README.md)              |
-|Code Challenge: Class 05|[matrix](./javascript/challenges/matrix/README.md)                                |
+|Code Challenge: Class 02|[Reverse Array](./javascript/challenges/Array/arrayReverse/README.md)                   | 
+|Code Challenge: Class 03|[Shift Array](./javascript/challenges/Array/arrayShift/README.md)                       |
+|Code Challenge: Class 04|[binary search](./javascript/challenges/Array/arrayBinarySearch/README.md)              |
+|Code Challenge: Class 05|[matrix](./javascript/challenges/Array/matrix/README.md)                                |
 |Code Challenge: Class 06|[linked List](./javascript/challenges/linkedList/README.md)                       |
 |Code Challenge: Class 07|[linked List](./javascript/challenges/linkedList/README.md)                       |
 |Code Challenge: Class 08|[ll-kth-from-end](./javascript/challenges/linkedList/README.md)                   |
 |Code Challenge: Class 09|[zipLists](./javascript/challenges/linkedList/README.md)                          |
-|Code Challenge: Class 10|[stacks and Queues](./javascript/challenges/stacksAndQueues/README.md)            |
-|Code Challenge: Class 11|[queue-with-stacks](./javascript/challenges/queueWithStacks/README.md)            |
-|Code Challenge: Class 12|[fifo-Animal-Shelter](./javascript/challenges/fifoAnimalShelter/README)           |
-|Code Challenge: Class 13|[multiBracketValidation](./javascript/challenges/multiBracketValidation/README)   |
-|Code Challenge: Class 15|[Trees](./javascript/challenges/tree/README)                                      |
-|Code Challenge: Class 16|[find-maximum-binary-tree](./javascript/challenges/tree-maximum-value/README)     |
+|Code Challenge: Class 10|[stacks and Queues](./javascript/challenges/Stack&Queue/stacksAndQueues/README.md)            |
+|Code Challenge: Class 11|[queue-with-stacks](./javascript/challenges/Stack&Queue/queueWithStacks/README.md)            |
+|Code Challenge: Class 12|[fifo-Animal-Shelter](./javascript/challenges/Stack&Queue/fifoAnimalShelter/README)           |
+|Code Challenge: Class 13|[multiBracketValidation](./javascript/challenges/Stack&Queue/multiBracketValidation/README)   |
+|Code Challenge: Class 15|[Trees](./javascript/challenges/Tree/tree/README)                                      |
+|Code Challenge: Class 16|[find-maximum-binary-tree](./javascript/challenges/Tree/tree-maximum-value/README)     |

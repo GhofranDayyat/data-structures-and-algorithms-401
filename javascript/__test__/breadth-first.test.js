@@ -1,7 +1,7 @@
 'use strict';
 
-const BinaryTree =  require('../challenges/breadth-first/breadth-first').BinaryTree;
-const Node = require('../challenges/breadth-first/breadth-first').Node;
+const BinaryTree =  require('../challenges/Tree/breadth-first/breadth-first').BinaryTree;
+const Node = require('../challenges/Tree/breadth-first/breadth-first').Node;
 
 describe('Test Breadth-first Traversal() in BT' , ()=>{
   it('Happy Path',()=>{
