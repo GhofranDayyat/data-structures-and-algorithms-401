@@ -3,6 +3,9 @@ const multiBracketValidation = require('../challenges/Stack&Queue/multiBracketVa
 
 
 describe('Multi-bracket Validation',()=>{
+  it('no input',()=>{
+    expect(() =>multiBracketValidation()).toThrow('Should Enter String !');
+  });
   it('{}',()=>{
     expect(multiBracketValidation('{}')).toBeTruthy();
   });
