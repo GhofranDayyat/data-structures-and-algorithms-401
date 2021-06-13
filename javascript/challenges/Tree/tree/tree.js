@@ -7,8 +7,8 @@ class Node {
 }
 
 class BinaryTree{
-  constructor(root=null){
-    this.root= root;
+  constructor(){
+    this.root= null;
   }
   preOrder(){ //Roor-Left-Right
     let output = [];
@@ -75,7 +75,7 @@ class BinarySearchTree {
       }
     }
   }
-  preOrder(){ //Roor-Left-Right
+  contains(value){
     let output = [];
     function treversal(node){
       output.push(node.value);
@@ -83,20 +83,7 @@ class BinarySearchTree {
       if(node.right) treversal(node.right); //if there is right ;recersive from these right
     }
     treversal(this.root);
-    return output;
-  }
-  sumallodds(){
-    let sum =0;
-    let output =this.preOrder();
-    for (let i = 0; i < output.length; i++) {
-      if (!(output[i] %2===0)){
-        sum+=output[i];
-      }
-    }
-    return sum;
-  }
-  contains(value){
-    return this.preOrder().includes(value);
+    return output.includes(value);
   }
 }
 let binarySearchTree = new BinarySearchTree();
@@ -110,7 +97,6 @@ binarySearchTree.add(4);
 binarySearchTree.add(7);
 binarySearchTree.add(13);
 binarySearchTree;
-binarySearchTree.sumallodds();
 
 module.exports= {
   Node,

@@ -35,29 +35,9 @@ class KaryTree {
 
   }
 }
-// function FizzBuzzTree (ktree){
-//   const fizzBuzzTree = new KaryTree(ktree);
-//   fizzBuzzTree.root=ktree.root;
-//   let q = new Queue();
-//   if(!fizzBuzzTree.root) return 'Tree is Empty';
-//   q.enqueue(fizzBuzzTree.root);
-//   const _treversal=(node)=>{
-//     if (node.value%15===0) node.value='FizzBuzz';
-//     else if(node.value%5===0) node.value='Fizz';
-//     else if(node.value%3===0) node.value= 'Buzz';
-//     else node.value= `${node.value}`;
-//     for (let i = 0; i < node.children.length -1; i++) {
-//       q.enqueue(node.children[i]);
-//       if(!q.isEmpty) _treversal(q.dequeue());
-//     }
-//   };
-//   _treversal(q.dequeue());
-//   return fizzBuzzTree;
-// }
-
 function FizzBuzzTree (tree) {
   if(!tree.root) return 'Tree Empty';
-  const newTree = tree;
+  // const newTree = tree;
   let traversal = (node) => {
     if (node.value%15===0) node.value='FizzBuzz';
     else if(node.value%5===0) node.value='Fizz';
@@ -68,8 +48,8 @@ function FizzBuzzTree (tree) {
       traversal(node.children[i]);
     }
   };
-  traversal(newTree.root);
-  return newTree;
+  traversal(tree.root);
+  return tree;
 }
 module.exports = {
   FizzBuzzTree,
