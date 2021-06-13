@@ -3,7 +3,7 @@
  brackets of three type ``(){}[]``
 
 ## Whiteboard Process
-![check](../../assets/multi-bracket-validation.jpg)
+![check](../../../assets/multi-bracket-validation.jpg)
 
 ## Approach & Efficiency
 
