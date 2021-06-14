@@ -24,4 +24,5 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 |Code Challenge: Class 13|[multiBracketValidation](./javascript/challenges/Stack&Queue/multiBracketValidation/README)   |
 |Code Challenge: Class 15|[Trees](./javascript/challenges/Tree/tree/README)                                      |
 |Code Challenge: Class 16|[find-maximum-binary-tree](./javascript/challenges/Tree/tree-maximum-value/README)     |
-|Code Challenge: Class 26|[Sort](./javascript/challenges/sort/Insertion-Sort/README)                             |
+|Code Challenge: Class 26|[Insertion Sort](./javascript/challenges/sort/Insertion-Sort/README)                             |
+|Code Challenge: Class 27|[merge-sort](./javascript/challenges/sort/merge-sort/BLOG)                             |
