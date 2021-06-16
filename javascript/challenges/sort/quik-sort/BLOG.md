@@ -47,7 +47,7 @@ ALGORITHM Swap(arr, i, low)
 ``npm test quik-sort.test.js``
 
 # WhitBoard  
-![check](../../../assets/quik-sort1.jpeg)
+![check](../../../assets/quik-sort.jpeg)
 
 # Verification   
 ![check](../../../assets/terminal.png)
