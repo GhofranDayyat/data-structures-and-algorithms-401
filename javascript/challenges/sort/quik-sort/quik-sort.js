@@ -1,41 +1,69 @@
-'use strict';
+// 'use strict';
 
-module.exports =function quickSort(items, left, right) {
-  var index;
-  if (items.length > 1) {
-    index = partition(items, left, right); //index returned from partition
-    if (left < index - 1) { //more elements on the left side of the pivot
-      quickSort(items, left, index - 1);
-    }
-    if (index < right) { //more elements on the right side of the pivot
-      quickSort(items, index, right);
-    }
+module.exports =function quickSort(arr,left,right){
+
+  if(left>=right) {
+    return;
   }
-  return items;
+  let posistion = Partition(arr,left,right);
+
+  quickSort(arr, left, posistion - 1);
+  quickSort(arr,posistion + 1, right);
+  return arr;
 };
-function partition(items, left, right) {
-  var pivot   = items[Math.floor((right + left) / 2)], //middle element
-    i       = left, //left pointer
-    j       = right; //right pointer
-  while (i <= j) {
-    while (items[i] < pivot) {
-      i++;
-    }
-    while (items[j] > pivot) {
-      j--;
-    }
-    if (i <= j) {
-      swap(items, i, j); //sawpping two elements
-      i++;
-      j--;
+function Partition(arr, left, right){
+  let pivot = arr[right];
+  let low = left-1;
+  for(let i =left ;i<right;i++){
+    if(arr[i]<= pivot){
+      low++;
+      swap(arr, i, low);
     }
   }
-  return i;
-}
-function swap(items, leftIndex, rightIndex){
-  var temp = items[leftIndex];
-  items[leftIndex] = items[rightIndex];
-  items[rightIndex] = temp;
+  swap(arr,right,low+1);
+  return low+1;
 }
 
+function swap(arr, i, low){
+  let temp;
+  temp=arr[i];
+  arr[i]=arr[low];
+  arr[low]=temp;
+}
+
+
+
+
+// module.exports =function quickSort(arr,left,right){
+
+//   if(left>=right) {
+//     return;
+//   }
+//   let posistion = Partition(arr,left,right);
+
+//   quickSort(arr, left, posistion - 1);
+//   quickSort(arr,posistion + 1, right);
+//   return arr;
+// };
+
+// function Partition(arr, left, right){
+//   let pivot = arr[right];
+//   let low = left-1;
+//   for(let i =left ;i<=right;i++){
+//     if(arr[i]<= pivot){
+
+//       swap(arr, i, ++low);
+//     }
+
+//   }
+//   // swap(arr,right,low);
+//   return low;
+// }
+
+// function swap(arr, i, low){
+//   let temp;
+//   temp=arr[i];
+//   arr[i]=arr[low];
+//   arr[low]=temp;
+// }
 
