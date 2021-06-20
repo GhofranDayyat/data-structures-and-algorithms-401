@@ -1,6 +1,6 @@
 'use strict';
 
-const HashTable = require('../challenges/hashtable/hashtable');
+const HashTable = require('../challenges/hashtable/hashtable/hashtable');
 let hashTable = new HashTable(100);
 
 describe('Take Size of Table', () => {
@@ -9,7 +9,6 @@ describe('Take Size of Table', () => {
   });
 
   it('Take key and hash it==> return index', () => {
-    console.log(hashTable.hash('ghofran'));
     expect(hashTable.hash('ghofran')).toBeLessThanOrEqual(100);
   });
 
