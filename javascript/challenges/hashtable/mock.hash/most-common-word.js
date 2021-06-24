@@ -24,3 +24,5 @@ function countWord(string) {
   }
   return arr[0];
 }
+countWord('hello for ohlle');
+
